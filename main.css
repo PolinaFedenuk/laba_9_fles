@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+html {
+  font-family: "Jost", sans-serif;
+}
+
+.button, .menu__item {
+  background-color: white;
+  border-radius: 1em;
+  line-height: 2em;
+  padding: 0 1em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.offer {
+  text-align: center;
+}
+.offer__image {
+  border-radius: 45px;
+  box-shadow: -27px 0 0 0 #C4C4C4;
+  width: 133px;
+  height: 218px;
+  overflow: hidden;
+}
+.offer__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.offer__title {
+  color: #9a1212;
+  width: 70px;
+  display: inline-block;
+}
+.offer__arrow {
+  position: relative;
+  cursor: pointer;
+  padding-top: 80px;
+}
+.offer__arrow_prev {
+  left: 0;
+}
+.offer__arrow_next {
+  right: 0;
+}
+.offer__arrow_next img {
+  transform: rotate(-180deg);
+}
+.offer-list {
+  position: relative;
+  max-width: max-content;
+}
+
+.footer {
+  background-color: #F3F3F3;
+  padding: 15px;
+  font-size: 24px;
+  color: #9a1212;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer .container {
+  position: relative;
+}
+.footer_mainpage {
+  position: relative;
+}
+.footer__copyright {
+  text-align: right;
+}
+.footer__copyright_left {
+  text-align: left;
+}
+.footer__back {
+  background-color: white;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 56px;
+}
+.footer__back img {
+  transform: translateX(-3px);
+}
+
+.logo_mainpage {
+  opacity: 0;
+}
+
+.menu {
+  z-index: 1;
+}
+.menu_mainpage .menu__item {
+  background-color: white;
+}
+.menu__item {
+  background-color: #F3F3F3;
+  text-transform: lowercase;
+}
+.menu__item_active {
+  background-color: #9a1212;
+  color: white;
+  font-size: 44px;
+}
+.menu__burger {
+  margin-left: 28px;
+}
+
+.button {
+  display: inline-block;
+  color: black;
+  max-width: max-content;
+}
+
+.banner {
+  color: white;
+  background-color: #9a1212;
+  position: relative;
+}
+.banner__inner {
+  background-image: url(img/banner.png);
+  background-size: cover;
+  text-align: right;
+  height: 726px;
+}
+.banner__content {
+  position: relative;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  max-width: 50%;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 500px;
+}
+.banner__button {
+  margin-top: 100px;
+}
+.banner__title {
+  font-size: 64px;
+  margin-bottom: 19px;
+  line-height: 92px;
+}
+.banner .mark {
+  font-size: 96px;
+}
+
+.header {
+  padding: 20px 50px 50px;
+}
+.header_mainpage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.promo {
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+  background-color: #F3F3F3;
+  color: white;
+  font-size: 31px;
+  height: 32px;
+  line-height: 0.8;
+}
+.promo span {
+  margin-left: 10px;
+}
+
+.offers {
+  max-width: max-content;
+  padding-bottom: 75px;
+}
+.offers__title {
+  text-align: center;
+  font-size: 96px;
+  text-transform: lowercase;
+  letter-spacing: 0.3em;
+}
+
+.decor {
+  position: absolute;
+  bottom: 0;
+}
+.decor_banner {
+  left: -120px;
+}
+.decor_mainpage {
+  right: 0;
+  bottom: -20px;
+}
+.decor_detail {
+  right: 0;
+  bottom: -40%;
+}
+.decor_catalog {
+  transform: rotate(180deg) scale(1, -1);
+  top: 50%;
+}
+
+.detail {
+  margin: 0 160px;
+  position: relative;
+}
+.detail__inner {
+  background-color: #9a1212;
+  border-radius: 61px;
+  font-size: 32px;
+}
+.detail__desc {
+  padding: 30px;
+  text-align: right;
+  color: white;
+}
+.detail__title {
+  font-size: 32px;
+  padding-left: 40px;
+  margin-bottom: 5px;
+}
+.detail__img {
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 61px;
+  overflow: hidden;
+}
+.detail__img img {
+  height: 100%;
+}
+.detail-container {
+  position: relative;
+}
+
+.about__desc {
+  text-align: right;
+  font-size: 29px;
+  padding: 0 50px 0 80px;
+}
+.about__desc p {
+  margin-bottom: 2em;
+}
+.about__img {
+  float: left;
+  margin-right: 50px;
+}
+
+.catalog {
+  padding: 0 70px;
+  position: relative;
+}

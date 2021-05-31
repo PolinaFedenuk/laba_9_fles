@@ -1,0 +1,37 @@
+.offer-list {
+  display: flex;
+  gap: 87px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu {
+  display: flex;
+  gap: 28px;
+}
+.menu__item {
+  align-self: flex-start;
+}
+
+.banner__inner {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail__inner {
+  display: flex;
+  gap: 30px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-between;
+}
